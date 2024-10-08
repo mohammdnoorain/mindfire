@@ -1,0 +1,74 @@
+.company-name-logo{
+
+  width: 200px;
+  height: 100px;
+}
+.header-box-1{
+margin:10px 40px 10px 40px;
+ /* display:flex; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  
+
+
+}
+.hedaer-list-ul{
+
+    list-style-type: none;  /* Remove default bullets */
+  padding: 0;             /* Remove default padding */
+  display: flex;          /* Use flexbox for spacing */
+  flex-direction: row; /* Arrange items vertically */
+  align-items: center;    /* Center the list items horizontally */
+  gap: 20px;
+  font-size:22px;
+    cursor: pointer;
+ 
+}
+.serach-btn{
+
+  color:red;
+  font-size:30px
+}
+.hedaer-list-ul li {
+  position: relative;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.dropdown-menu {
+  margin-top:60px;
+  margin-left:50px;
+  display: none;
+  position: absolute;
+  top: 100%; /* Position it below the "About Us" item */
+  left: 0;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  min-width: 300px; /* Ensure the dropdown has some width */
+  /* height:500px; */
+
+}
+
+.dropdown-menu li {
+  padding: 8px 12px;
+  white-space: nowrap; /* Prevent text wrapping */
+  background-color:black;
+
+}
+
+.dropdown-menu li:hover {
+  background-color: black;
+
+
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color:black;
+  color:white;
+  z-index: 10;
+}

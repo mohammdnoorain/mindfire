@@ -1,0 +1,41 @@
+.footer{
+ height: 150px; 
+background-color:black;
+
+}
+
+
+.footer-container{
+  margin-top:60px;
+  color:white;
+  font-size:30px;
+ margin-left:200px;
+  margin-right:200px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  text-align:center;
+  align-item:center;
+}
+
+
+.social-icons{
+
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  
+  font-size:20px;
+  margin-top:10px;
+
+}
+
+social-icons div {
+    justify-content:space-between;
+  font-size: 24px; /* Adjust size of icons if needed */
+  cursor: pointer; /* Make icons clickable */
+}
+
+.social-icons div:hover {
+  color: #0077b5; /* Optional: Change color on hover (example) */
+}
